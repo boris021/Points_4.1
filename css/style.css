@@ -1,0 +1,93 @@
+* {
+  box-sizing: border-box;
+  outline: none;
+}
+
+body {
+  background-color: #F6F6F6;
+  font-family: serif;
+  color: #666666;
+}
+
+.block {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  width: 1140px;
+
+}
+
+.title {
+  font-size: 35px;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.block__title {
+  padding-bottom: 75px;
+}
+
+.cards {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.cart {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.cards__cart {
+  margin-right: 24px;
+}
+
+.cards__cart:last-child {
+  margin-right: 0;
+}
+
+.cart__img {
+  width: 276px
+}
+
+.subtitle {
+  font-size: 18px;
+  font-weight: 500;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.cart__subtitle {
+  padding: 30px 0;
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.button {
+  font-size: 14px;
+  font-weight: 700;
+  text-transform: uppercase;
+  padding: 15px 20px;
+  border: 2px solid #66cc66;
+}
+
+
+.button--outline {
+  color: #66cc66;
+  margin-right: 10px;
+}
+
+.button--primary {
+  background-color: #66cc66;
+  color: #ffffff;
+}
